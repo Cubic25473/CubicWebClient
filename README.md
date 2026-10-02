@@ -12,7 +12,7 @@ Every push to `main` runs the GitHub Pages workflow in `.github/workflows/deploy
 
 ## Team content
 
-Only Firebase records are displayed. Members live under `cubic/members` and robots under `cubic/robots`. The public web configuration is in `public/firebase-config.json`.
+Only Firebase records are displayed. Members live under `cubic/members`, alumni under `cubic/alumni`, and robots under `cubic/robots`. The public web configuration is in `public/firebase-config.json`.
 
 Open `/admin` and sign in with a Firebase email/password account. Administrator access requires `admins/{uid}: true` in Realtime Database. The rules in `firebase/database.rules.json` enforce public profile reads and administrator-only writes. Apply changes to those rules through Firebase Console.
 
