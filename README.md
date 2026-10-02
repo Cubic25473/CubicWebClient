@@ -4,7 +4,11 @@ React + TypeScript + Vinext, with Firebase Authentication and Realtime Database.
 
 ## Development
 
-Use Node 22.13 or newer. Run `npm install`, then `npm run dev`. Run `npm run build` for production.
+Use Node 22.13 or newer. Run `npm install`, then `npm run dev`. Run `npm run build` to produce the static `out/` directory used by GitHub Pages.
+
+## Deployment
+
+Every push to `main` runs the GitHub Pages workflow in `.github/workflows/deploy-pages.yml`. In the repository's **Settings → Pages**, select **GitHub Actions** as the deployment source once. The committed `CNAME` files configure the custom domain `cubiclens.net`; keep its DNS record pointed at GitHub Pages.
 
 ## Team content
 
