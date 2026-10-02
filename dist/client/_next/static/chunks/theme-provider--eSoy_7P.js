@@ -1,0 +1,1 @@
+import{r as e}from"./framework-D_rUT4EX.js";import{t}from"./dist-DudGckan.js";var n=e();function r({children:e}){return(0,n.jsx)(t,{attribute:`data-theme`,defaultTheme:`system`,enableSystem:!0,enableColorScheme:!0,storageKey:`cubic-theme`,disableTransitionOnChange:!0,children:e})}export{r as ThemeProvider};
